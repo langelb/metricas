@@ -28,7 +28,7 @@ jobs:
       - name: Run tests for ServicioSistema
         working-directory: ./
         run: |
-          coverage run -m unittest discover -s tests && coverage report -m && coverage html
+          coverage run -m unittest discover -s tests && coverage report -m && coverage xml
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
