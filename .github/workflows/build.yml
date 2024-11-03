@@ -31,6 +31,9 @@ jobs:
           coverage run -m unittest discover -s tests 
           coverage report -m
           coverage xml
+      
+      - name: Debug Coverage XML
+        run: cat coverage.xml
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
