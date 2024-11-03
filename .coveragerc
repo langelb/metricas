@@ -7,6 +7,7 @@ omit = src/logica/LogicaMock.py,src/logica/FachadaCajaDeSeguridad.py,src/vista/*
 [paths]
 source =
     src/
+    /home/runner/work/metricas/metricas/src
     */site-packages/
 
 [report]
